@@ -6,7 +6,7 @@ h4 { color: #22abd4;  font-size: 1 em; padding-bottom: 10px; padding-bottom: 15p
 
 p { text-align: justify; font-size: .5 em; padding: 10px; color: #666; }
 
-section { position: relative; margin-top: 30px; width: 640px; margin-left: 240px; height: auto; margin-bottom: 10px; background-color: #E9E9E9;  } 
+div { position: relative; margin-top: 30px; width: 640px; margin-left: 240px; height: auto; margin-bottom: 10px; background-color: #E9E9E9;  } 
 
 header { position: relative; margin-top: 55px; width: 640px; padding-top: 5px; padding-bottom: 5px; margin-left: 240px; height: auto; margin-bottom: 15px; background-color: #E9E9E9; } 
 

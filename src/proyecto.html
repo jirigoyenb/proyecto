@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<script type="text/javascript" src="js/funciones.js"></script>
+<LINK href="sass/estilo.css" rel="stylesheet" type="text/css" >
+
+<head>
+   
+    <meta charset="UTF-8">  
+    
+    <title>Conversor de moneda</title>
+    
+    
+</head>
+
+
+<body>
+
+ 
+ <header>
+     
+       <h1>Conversor de moneda</h1>
+     
+ </header>
+
+    <section>
+        
+        <p>Introduce una cantidad, escoge la moneda de partida y la moneda destino</p>
+        
+        <form name="fCantidad" id="formCan">          
+           
+            <input type="number" name="cantidad" id="idCantidad">
+            
+        </form>
+           
+        </br>
+            
+        <form name="fOrigen" id="formMonOr"> 
+            
+            <select name="origen" id="monedaOrigen" >
+                      
+                <option value="Moneda origen">Moneda origen</option>            
+                       
+                <option value="Euro">Euro</option>
+                
+                <option value="Dolar">Dolar</option>
+                
+                <option value="Libra esterlina">Libra esterlina</option>
+                
+            </select>
+            
+        </form>
+       
+        </br>
+               
+        <form name="fDestino" id="formDes" onchange="opera()"> 
+                
+            <select name="destino" id="monedaDestino" >  
+                      
+                <option value="Moneda destino">Moneda destino</option>           
+                       
+                <option value="Euro">Euro</option>
+                
+                <option value="Dolar">Dolar</option>   
+                
+                <option value="Libra esterlina">Libra esterlina</option>
+                
+            </select>
+              
+        </form>
+           
+        </br>
+              
+            
+            <form name="fCantidadCon" id="formCanCon">
+                
+               <input type="number" name="convertida" id="monedaConvertida">
+                
+            </form>
+  
+        
+        
+    </section>
+
+    
+</body>
+
+</html>      
+

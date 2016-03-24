@@ -1,0 +1,31 @@
+{
+  "name": "primer_proyecto_frontend",
+  "version": "0.0.1",
+  "description": "configurando un entorno ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirigoyenb/proyecto"
+  },
+  "author": "jirigoyenb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jirigoyenb/proyecto/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-uglify": "~1.5.3",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-imagemin": "~2.4.0",
+    "jshint": "~2.9.1",
+    "gulp-jshint": "~2.0.0",
+    "gulp-sass": "~2.2.0",
+    "jshint-stylish": "~2.1.0",
+    "browser-sync": "~2.11.2",
+    "del": "~2.2.0"
+  }
+}
